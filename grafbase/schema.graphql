@@ -10,3 +10,9 @@ type Todo @model {
   complete: Boolean!
   list: TodoList
 }
+
+type Article @model {
+  id: ID!
+  slug: String!
+  context: String
+}
